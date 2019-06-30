@@ -1,0 +1,8 @@
+{
+  "package": "flash-plugin",
+  "dependencies": ["alsa-plugins-pulseaudio", "libcurl"],
+  "repo": ["http://linuxdownload.adobe.com/adobe-release/adobe-release-$(uname -i)-1.0-1.noarch.rpm"],
+  "install_repo_cmd": "sudo dnf install -y ",
+  "script": false,
+  "command": "sudo dnf install -y "
+}

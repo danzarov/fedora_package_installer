@@ -1,0 +1,8 @@
+{
+  "package": "spotify-client",
+  "dependencies": false,
+  "repo": ["http://negativo17.org/repos/fedora-spotify.repo"],
+  "install_repo_cmd": "sudo dnf config-manager --add-repo=",
+  "script": false,
+  "command": "sudo dnf install -y "
+}

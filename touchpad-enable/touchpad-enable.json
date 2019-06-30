@@ -1,0 +1,8 @@
+{
+  "package": false,
+  "dependencies": false,
+  "repo": false,
+  "install_repo_cmd": false,
+  "script": "touchpad-enable/touchpad-enable.sh",
+  "command": "sh "
+}

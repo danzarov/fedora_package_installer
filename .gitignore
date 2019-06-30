@@ -1,0 +1,12 @@
+# Cache
+__pycache__
+
+# OS
+.DS_Store
+
+# IDE
+.idea
+
+# venv
+venv
+

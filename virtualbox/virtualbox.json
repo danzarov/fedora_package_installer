@@ -1,0 +1,8 @@
+{
+  "package": "VirtualBox",
+  "dependencies": ["akmod-VirtualBox", "kernel-devel-uname-r", "VirtualBox-guest-additions"],
+  "repo": false,
+  "install_repo_cmd": false,
+  "script": false,
+  "command": "sudo dnf install -y "
+}

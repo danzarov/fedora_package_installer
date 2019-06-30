@@ -1,0 +1,8 @@
+{
+  "package": "neovim",
+  "dependencies": false,
+  "repo": false,
+  "install_repo_cmd": false,
+  "script": false,
+  "command": "sudo dnf install -y "
+}
