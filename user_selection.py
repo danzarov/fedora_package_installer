@@ -19,7 +19,3 @@ options = [
 
 def ask_user():
     return pick(options, title, multi_select=True, min_selection_count=1, options_map_func=get_label)
-
-
-
-

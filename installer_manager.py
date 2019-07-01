@@ -17,4 +17,3 @@ def install_package(_package_name, _install_package_cmd):
 
 def execute_script(_script_name, _script_cmd):
     subprocess_call(_script_cmd, _script_name)
-

@@ -19,7 +19,3 @@ def start(_selected_packages):
 
         if metadata['script'] != False:
             execute_script(metadata['script'], metadata['command'])
-
-
-
-
