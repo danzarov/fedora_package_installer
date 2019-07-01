@@ -12,6 +12,8 @@ options = [
     {'label': 'google-chrome'},
     {'label': 'spotify'},
     {'label': 'virtualbox'},
+    {'label': 'weechat'},
+    {'label': 'gimp'},
     {'label': 'touchpad-enable'}
 ]
 
