@@ -1,12 +1,16 @@
 import json
 from installer_manager import *
+from user_interaction import display_message
 
 
-def start(_selected_packages):
-    for item, index in _selected_packages:
-        with open(item['label'] + '/' + item['label'] + '.json') as json_file:
+def start(selected_packages):
+    display_message(selected_packages)
+
+    for item, index in selected_packages:
+        package_file_name = f"{'packages'}/{item['label']}/{item['label']}.json"
+
+        with open(package_file_name) as json_file:
             metadata = json.load(json_file)
-
 
         if metadata['repo'] != False:
             install_repository(metadata['repo'], metadata['install_repo_cmd'])

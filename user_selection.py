@@ -6,15 +6,17 @@ def get_label(option):
 title = 'Please choose the programs you want to install (press SPACE to mark, ENTER to continue):'
 
 options = [
-    {'label': 'vim'},
-    {'label': 'neovim'},
-    {'label': 'vlc'},
-    {'label': 'google-chrome'},
-    {'label': 'spotify'},
-    {'label': 'virtualbox'},
-    {'label': 'weechat'},
+    {'label': 'adobe-flash-plugin'},
     {'label': 'gimp'},
-    {'label': 'touchpad-enable'}
+    {'label': 'google-chrome'},
+    {'label': 'neovim'},
+    {'label': 'simplescreenrecorder'},
+    {'label': 'spotify'},
+    {'label': 'touchpad-enable'},
+    {'label': 'vim'},
+    {'label': 'virtualbox'},
+    {'label': 'vlc'},
+    {'label': 'weechat'},
 ]
 
 def ask_user():
