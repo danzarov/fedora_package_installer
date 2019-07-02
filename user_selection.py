@@ -7,6 +7,7 @@ title = 'Please choose the programs you want to install (press SPACE to mark, EN
 
 options = [
     {'label': 'adobe-flash-plugin'},
+    {'label': 'ffmpeg'},
     {'label': 'gimp'},
     {'label': 'google-chrome'},
     {'label': 'neovim'},
