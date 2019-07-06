@@ -11,6 +11,7 @@ options = [
     {'label': 'gimp'},
     {'label': 'google-chrome'},
     {'label': 'neovim'},
+    {'label': 'remove-headerbar'},
     {'label': 'simplescreenrecorder'},
     {'label': 'spotify'},
     {'label': 'touchpad-enable'},

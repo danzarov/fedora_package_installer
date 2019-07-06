@@ -3,6 +3,6 @@
   "dependencies": false,
   "repo": false,
   "install_repo_cmd": false,
-  "script": "packages/touchpad-enable/touchpad-enable.sh",
+  "script": "packages/remove-headerbar/remove-headerbar.sh",
   "command": "sh "
 }
